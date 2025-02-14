@@ -1,3 +1,4 @@
+// miles to km
 function milesToKilometer(miles) {
     const kilometer = miles * 1.60934;
     return kilometer;
@@ -12,9 +13,9 @@ function miles(km) {
 }
 
 const resultMiles = miles(50);
-// console.log(resultMiles, 'miles');
+console.log(resultMiles, 'miles');
 
-
+// inch to fit
 function rollsOfInch (inch){
     const fitToInch = inch / 12;
     const fitNumber = parseInt(fitToInch);
