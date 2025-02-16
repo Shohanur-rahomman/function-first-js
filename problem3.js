@@ -5,7 +5,7 @@ function stringValidation(name) {
 
     let character = false;//why this one asaind out sit
     for (let i = 0; i < name.length; i++) {
-        let char = name[i];//why i use for loop insitd why no assind out sit
+        let char = name[i];//why i use for loop insitd why no assi out sit
         if (!isNaN(char) && char !== ' ') {
             character = true;
             break;//why i use break if i use return then what happen
