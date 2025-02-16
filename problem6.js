@@ -24,6 +24,7 @@ const heights3 = ['rahim', 'robin', 'rafi', 'ron', 'rashed'];
 const result = smallName(heights3);
 console.log(result);
 
+// version 2
 function smallName(names) {
     let sortName = names[0];
     for (let i = 1; i < names.length; i++) {
