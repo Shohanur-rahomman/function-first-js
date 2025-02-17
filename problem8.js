@@ -1,4 +1,7 @@
 function findAveragePhonePrice(phones) {
+
+    if (phones.length === 0) { return 0 }//if array empty
+
     let totalPrice = 0;
     for (let i = 0; i < phones.length; i++) {
         totalPrice += phones[i].price;
